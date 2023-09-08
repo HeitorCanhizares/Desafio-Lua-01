@@ -26,12 +26,13 @@
 ]]
 -- UTF-8
 os.execute("chcp 65001")
+os.execute("cls")
 
 local line = "===================================================================="
 
 -- Criatura
-local monsterName = "CREEPER"
-local description = "Um monstro furtivo com um temperamento explosivo"
+local monsterName = "Creeper"
+local description = "Um monstro furtivo com um temperamento explosivo! ಠ_ಠ"
 local sound = "Tssssss"
 local emoji = "🧨"
 local favoriteTime = "Noturno"
@@ -63,7 +64,6 @@ end
 print(line)
 print("| " .. monsterName)
 print("| " .. description)
-print("|")
 print("| Som: " .. sound)
 print("| Item: " .. item)
 print("| Emoji favorito: " .. emoji)
